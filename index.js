@@ -1,3 +1,6 @@
+// Pull in the data
+var data = require('./data');
+
 var ctx = document.getElementById("myChart");
 console.log("hi");
 var myChart = new Chart(ctx, {
