@@ -1,0 +1,12 @@
+#holder {
+    width: 80%;
+    height: auto;
+    padding: 30px;
+    background-image: url('../images/nbaBackground.png');
+    background-position: center;
+    background-size: cover;
+}
+
+#nbaChart {
+
+}

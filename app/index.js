@@ -1,5 +1,10 @@
 import Chart from 'chart.js';
 import Colors from './colors/colors';
+import './static/css/styles.css';
+
+// Change global settings
+Chart.defaults.global.defaultFontColor = '#FFF';
+Chart.defaults.global.defaultFontFamily = 'Arial';
 
 var nbaChart = document.getElementById("nbaChart");
 var myChart = new Chart(nbaChart, {
@@ -21,7 +26,7 @@ var myChart = new Chart(nbaChart, {
         scales: {
             yAxes: [{
                 ticks: {
-                    beginAtZero:true
+                    beginAtZero: true,
                 },
                 gridLines: {
                     display: false
@@ -30,12 +35,14 @@ var myChart = new Chart(nbaChart, {
             xAxes: [{
                 gridLines: {
                     display: false
-                }
+                },
+                barPercentage: 0.5
             }]
         },
         title: {
             display: true,
-            text: 'NBA 2016-2017'
+            text: 'NBA 2016-2017',
+            fontSize: 32
         }
     }
 });
