@@ -6,6 +6,7 @@ import Colors from './colors/colors';
 import ChartOptions from './chartOptions/chartOptions';
 import NBASlider from './components/nba-slider';
 import './static/css/styles.css';
+import Data from '../data/formatted_data.json';
 
 // Change globals
 defaults.global.defaultFontColor = '#FFF';
@@ -27,7 +28,9 @@ let data = {
 
 ReactDOM.render(
     <div>
-        <Bar width={400} height={400} options={ChartOptions} data={data} />
+        <div id="chart-container">
+            <Bar width={400} height={450} options={ChartOptions} data={data} />
+        </div>
         <NBASlider />
     </div>,
     document.getElementById('main-container')
