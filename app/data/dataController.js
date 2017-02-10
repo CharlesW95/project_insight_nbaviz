@@ -23,7 +23,6 @@ export default class DataController {
             this.data["Klay Thompson"][index]
         ];
         this.currentDate = this.data["Date"][index];
-        console.log(this.currentDate);
     }
 
 

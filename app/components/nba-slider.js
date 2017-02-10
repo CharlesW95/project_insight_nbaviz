@@ -33,8 +33,6 @@ export default class NBASlider extends React.Component {
     }
 
     onDragStart(e, data) {
-        console.log("Started");
-        console.log(data);
     }
 
     onDragging(e, data) {
@@ -45,7 +43,5 @@ export default class NBASlider extends React.Component {
     }
 
     onDragEnd(e, data) {
-        console.log("Ended");
-        console.log(data);
     }
 }
