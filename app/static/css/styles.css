@@ -26,6 +26,7 @@
     border-radius: 10px;
     position: relative;
     margin: 0 auto;
+    box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.7);
 }
 
 #slider-button {

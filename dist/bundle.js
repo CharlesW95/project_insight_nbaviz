@@ -24228,6 +24228,7 @@ var MainApp = function (_React$Component) {
         value: function updateGraph(xPos) {
             dataController.updateCurrentData(xPos);
             data.datasets[0].data = dataController.currentData;
+            data.datasets[0].label = 'Points Scored: ' + dataController.currentDate;
             this.refs.chart.chart_instance.update();
             console.log(this.refs.chart.chart_instance);
         }
@@ -37218,7 +37219,7 @@ exports = module.exports = __webpack_require__(245)();
 
 
 // module
-exports.push([module.i, "#main-container {\n    width: 500px;\n    height: 500px;\n    padding: 30px;\n    background-image: url(" + __webpack_require__(349) + ");\n    background-position: center;\n    background-size: cover;\n}\n\n#chart-container {\n    width: 400px;\n    height: 450px;\n    margin: 0 auto;\n}\n\n/* Slider component */\n#slider-container {\n    text-align: center;\n    margin: 20px auto;\n}\n\n#slider-bar {\n    width: 80%;\n    height: 15px;\n    background-color: #272324;\n    border-radius: 10px;\n    position: relative;\n    margin: 0 auto;\n}\n\n#slider-button {\n    height: 35px;\n    width: 35px;\n    border-radius: 100%;\n    position: absolute;\n    background-image: url(" + __webpack_require__(348) + ");\n    background-position: center;\n    background-size: cover;\n    margin-top: -7.5px;\n}\n", ""]);
+exports.push([module.i, "#main-container {\n    width: 500px;\n    height: 500px;\n    padding: 30px;\n    background-image: url(" + __webpack_require__(349) + ");\n    background-position: center;\n    background-size: cover;\n}\n\n#chart-container {\n    width: 400px;\n    height: 450px;\n    margin: 0 auto;\n}\n\n/* Slider component */\n#slider-container {\n    text-align: center;\n    margin: 20px auto;\n}\n\n#slider-bar {\n    width: 80%;\n    height: 15px;\n    background-color: #272324;\n    border-radius: 10px;\n    position: relative;\n    margin: 0 auto;\n    box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.7);\n}\n\n#slider-button {\n    height: 35px;\n    width: 35px;\n    border-radius: 100%;\n    position: absolute;\n    background-image: url(" + __webpack_require__(348) + ");\n    background-position: center;\n    background-size: cover;\n    margin-top: -7.5px;\n}\n", ""]);
 
 // exports
 

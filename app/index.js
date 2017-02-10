@@ -29,7 +29,6 @@ let data = {
 };
 
 class MainApp extends React.Component {
-
     constructor(props) {
         super(props);
         this.updateGraph = this.updateGraph.bind(this);
@@ -49,6 +48,7 @@ class MainApp extends React.Component {
     updateGraph(xPos) {
         dataController.updateCurrentData(xPos);
         data.datasets[0].data = dataController.currentData;
+        data.datasets[0].label = `Points Scored: ${dataController.currentDate}`;
         this.refs.chart.chart_instance.update();
         console.log(this.refs.chart.chart_instance);
     }
