@@ -7,12 +7,13 @@ HTMLWebpackPluginConfig = new HTMLWebpackPlugin({
 
 module.exports = {
     entry: [
-        './app/index.js'
+        './app/index.js',
     ],
     module: {
         loaders: [
             {
                 test: /\js$/,
+                // Load components into memory for later use
                 exclude: /(node_modules|bower_components)/,
                 loader: 'babel-loader',
                 query: {
@@ -26,6 +27,14 @@ module.exports = {
             {
                 test: /\.(png|jpg)$/,
                 loader: 'url-loader?limit=8192'
+            },
+            {
+                test: /\.jsx?$/,
+                exclude: /(node_modules)/,
+                loader: 'babel-loader',
+                query: {
+                  presets: ['es2015', 'react']
+                }
             }
         ]
     },
