@@ -7,10 +7,10 @@ export default function(dataController) {
             label: `Points Scored: ${dataController.currentDate}`,
             data: dataController.currentData,
             backgroundColor: [
-                Colors.orange,
-                Colors.red,
-                Colors.blue,
-                Colors.green
+                Colors.warrior_blue,
+                Colors.warrior_gold,
+                Colors.warrior_blue,
+                Colors.warrior_gold
             ]
         }]
     });

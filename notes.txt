@@ -1,0 +1,19 @@
+
+
+
+Nice hotkeys:
+
+webpack --watch
+
+
+Ideas:
+
+switch between gold and blue bar color depending on loss or win
+
+speed up the chart update animation
+
+how to add images
+
+https://jsfiddle.net/0cjxp0as/
+
+where is the chart object?

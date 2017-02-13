@@ -29,6 +29,10 @@
     box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.7);
 }
 
+#player-head {
+    background-image: url('../images/curry_head.png');
+}
+
 #slider-button {
     height: 35px;
     width: 35px;
@@ -37,5 +41,6 @@
     background-image: url('../images/Basketball.png');
     background-position: center;
     background-size: cover;
-    margin-top: -7.5px;
+    margin-top: -7px;
+    margin-left: -7.5px;
 }

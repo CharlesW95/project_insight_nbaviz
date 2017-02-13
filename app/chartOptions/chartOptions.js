@@ -1,8 +1,15 @@
+import NBASlider from './nba-slider';
+
+
 export default {
+    plugin: // The plugin
     scales: {
         yAxes: [{
             ticks: {
                 beginAtZero: true,
+                steps: 10,
+                stepValue: 5,
+                max: 40
             },
             gridLines: {
                 display: false
@@ -20,4 +27,6 @@ export default {
         text: 'NBA 2016-2017',
         fontSize: 32
     }
+
 };
+
