@@ -22,6 +22,11 @@ export default class DataController {
             this.data["Klay Thompson"][index],
             this.data["Draymond Green"][index]
         ];
+        this.headsData = this.currentData.map(function(x) {
+                
+                return Number(x) + 4.5;
+        });
+        this.Win = this.data["Win"][index];
         this.currentDate = this.data["Date"][index];
     }
 

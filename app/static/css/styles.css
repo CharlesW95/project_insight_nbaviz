@@ -29,6 +29,33 @@
     box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.7);
 }
 
+#button-container {
+    width: 400px;
+    margin: 0 auto;
+}
+
+#run-button {
+    display:block; /* change this from inline-block */
+    width:30%; /* setting the width */
+    margin:0 auto; /* this will center  it */
+    position:relative;
+    border: none;
+    cursor: pointer;
+    background-color: #fbbf16;
+    color: black;
+    outline: 0 !important;
+    border:0 none !important;
+    // box-shadow: 0 9px #999;
+    border: none;
+    border-radius: 15px;
+}
+#run-button:hover {background-color: #b08203}
+button:active {
+  background-color: #3e8e41;
+  // box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
 
 #slider-button {
     height: 35px;
@@ -42,6 +69,3 @@
     margin-left: -7.5px;
 }
 
-#1 {
-    offset-right: -600px;
-}

@@ -8,20 +8,20 @@ export default function(dataController) {
             fill: false,
             borderColor: "transparent",
             label: `Points Scored: ${dataController.currentDate}`,
-            data: dataController.currentData,
+            
+
+            data: dataController.headsData,
             
         }, {
             type: 'bar',
             // fill: false,
             // borderColor: "transparent",
             // label: `Points Scored: ${dataController.currentDate}`,
-            backgroundColor: [
-                Colors.warrior_blue,
-                Colors.warrior_gold,
-                Colors.warrior_blue,
-                Colors.warrior_gold
-            ],
+            
+            label: (dataController.Win == 1 ? 'WIN' : 'LOSS'),
+            backgroundColor: (dataController.Win == 1 ? Colors.warrior_gold : Colors.warrior_blue),
             data: dataController.currentData,
+
 
         }]
     });

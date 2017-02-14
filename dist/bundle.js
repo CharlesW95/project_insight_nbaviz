@@ -24206,208 +24206,259 @@ module.exports = {
 		"48": "2/1/17"
 	},
 	"Draymond Green": {
-		"0": 18,
-		"1": 8,
-		"2": 5,
-		"3": 6,
-		"4": 9,
-		"5": 16,
-		"6": 4,
-		"7": 16,
-		"8": 13,
-		"9": 14,
-		"10": 11,
-		"11": 11,
-		"12": 10,
-		"13": 10,
-		"14": 5,
-		"15": 12,
+		"0": "18",
+		"1": "8",
+		"2": "5",
+		"3": "6",
+		"4": "9",
+		"5": "16",
+		"6": "4",
+		"7": "16",
+		"8": "13",
+		"9": "14",
+		"10": "11",
+		"11": "11",
+		"12": "10",
+		"13": "10",
+		"14": "5",
+		"15": "12",
 		"16": 0,
-		"17": 4,
-		"18": 20,
-		"19": 9,
-		"20": 2,
-		"21": 22,
-		"22": 13,
-		"23": 7,
-		"24": 18,
-		"25": 12,
-		"26": 5,
-		"27": 3,
-		"28": 15,
+		"17": "4",
+		"18": "20",
+		"19": "9",
+		"20": "2",
+		"21": "22",
+		"22": "13",
+		"23": "7",
+		"24": "18",
+		"25": "12",
+		"26": "5",
+		"27": "3",
+		"28": "15",
 		"29": 0,
-		"30": 5,
-		"31": 16,
-		"32": 14,
-		"33": 13,
-		"34": 15,
-		"35": 9,
-		"36": 11,
-		"37": 9,
-		"38": 13,
-		"39": 2,
-		"40": 11,
-		"41": 12,
-		"42": 15,
-		"43": 6,
-		"44": 7,
-		"45": 13,
-		"46": 5,
-		"47": 5,
-		"48": 8
+		"30": "5",
+		"31": "16",
+		"32": "14",
+		"33": "13",
+		"34": "15",
+		"35": "9",
+		"36": "11",
+		"37": "9",
+		"38": "13",
+		"39": "2",
+		"40": "11",
+		"41": "12",
+		"42": "15",
+		"43": "6",
+		"44": "7",
+		"45": "13",
+		"46": "5",
+		"47": "5",
+		"48": "8"
 	},
 	"Kevin Durant": {
-		"0": 27,
-		"1": 30,
-		"2": 37,
-		"3": 20,
-		"4": 39,
-		"5": 27,
-		"6": 22,
-		"7": 28,
-		"8": 18,
-		"9": 29,
-		"10": 30,
-		"11": 23,
-		"12": 33,
-		"13": 14,
-		"14": 28,
-		"15": 29,
-		"16": 28,
-		"17": 25,
-		"18": 39,
-		"19": 20,
-		"20": 20,
-		"21": 16,
-		"22": 21,
-		"23": 21,
-		"24": 22,
-		"25": 27,
-		"26": 15,
-		"27": 34,
-		"28": 22,
-		"29": 26,
-		"30": 32,
-		"31": 36,
-		"32": 22,
-		"33": 19,
-		"34": 21,
-		"35": 30,
-		"36": 27,
-		"37": 28,
-		"38": 28,
-		"39": 25,
-		"40": 21,
-		"41": 40,
-		"42": 32,
-		"43": 15,
-		"44": 27,
-		"45": 33,
-		"46": 23,
-		"47": 33,
-		"48": 18
+		"0": "27",
+		"1": "30",
+		"2": "37",
+		"3": "20",
+		"4": "39",
+		"5": "27",
+		"6": "22",
+		"7": "28",
+		"8": "18",
+		"9": "29",
+		"10": "30",
+		"11": "23",
+		"12": "33",
+		"13": "14",
+		"14": "28",
+		"15": "29",
+		"16": "28",
+		"17": "25",
+		"18": "39",
+		"19": "20",
+		"20": "20",
+		"21": "16",
+		"22": "21",
+		"23": "21",
+		"24": "22",
+		"25": "27",
+		"26": "15",
+		"27": "34",
+		"28": "22",
+		"29": "26",
+		"30": "32",
+		"31": "36",
+		"32": "22",
+		"33": "19",
+		"34": "21",
+		"35": "30",
+		"36": "27",
+		"37": "28",
+		"38": "28",
+		"39": "25",
+		"40": "21",
+		"41": "40",
+		"42": "32",
+		"43": "15",
+		"44": "27",
+		"45": "33",
+		"46": "23",
+		"47": "33",
+		"48": "18"
 	},
 	"Klay Thompson": {
-		"0": 11,
-		"1": 28,
-		"2": 14,
-		"3": 14,
-		"4": 18,
-		"5": 10,
-		"6": 24,
-		"7": 20,
-		"8": 19,
-		"9": 30,
-		"10": 15,
-		"11": 28,
-		"12": 29,
-		"13": 25,
-		"14": 26,
-		"15": 18,
-		"16": 23,
-		"17": 20,
-		"18": 15,
-		"19": 26,
-		"20": 60,
-		"21": 24,
-		"22": 10,
-		"23": 8,
-		"24": 30,
-		"25": 17,
-		"26": 25,
-		"27": 16,
-		"28": 17,
-		"29": 23,
-		"30": 17,
-		"31": 24,
-		"32": 21,
-		"33": 29,
-		"34": 25,
-		"35": 14,
-		"36": 17,
-		"37": 18,
+		"0": "11",
+		"1": "28",
+		"2": "14",
+		"3": "14",
+		"4": "18",
+		"5": "10",
+		"6": "24",
+		"7": "20",
+		"8": "19",
+		"9": "30",
+		"10": "15",
+		"11": "28",
+		"12": "29",
+		"13": "25",
+		"14": "26",
+		"15": "18",
+		"16": "23",
+		"17": "20",
+		"18": "15",
+		"19": "26",
+		"20": "60",
+		"21": "24",
+		"22": "10",
+		"23": "8",
+		"24": "30",
+		"25": "17",
+		"26": "25",
+		"27": "16",
+		"28": "17",
+		"29": "23",
+		"30": "17",
+		"31": "24",
+		"32": "21",
+		"33": "29",
+		"34": "25",
+		"35": "14",
+		"36": "17",
+		"37": "18",
 		"38": 0,
-		"39": 23,
-		"40": 26,
-		"41": 14,
-		"42": 16,
-		"43": 21,
-		"44": 22,
-		"45": 19,
-		"46": 16,
-		"47": 27,
-		"48": 29
+		"39": "23",
+		"40": "26",
+		"41": "14",
+		"42": "16",
+		"43": "21",
+		"44": "22",
+		"45": "19",
+		"46": "16",
+		"47": "27",
+		"48": "29"
 	},
 	"Stephen Curry": {
-		"0": 26,
-		"1": 23,
-		"2": 28,
-		"3": 28,
-		"4": 21,
-		"5": 13,
-		"6": 46,
-		"7": 24,
-		"8": 33,
-		"9": 30,
-		"10": 35,
-		"11": 16,
-		"12": 20,
-		"13": 22,
-		"14": 31,
-		"15": 24,
-		"16": 34,
-		"17": 25,
-		"18": 28,
-		"19": 31,
-		"20": 13,
-		"21": 19,
-		"22": 26,
-		"23": 17,
-		"24": 22,
-		"25": 30,
-		"26": 8,
-		"27": 19,
-		"28": 25,
-		"29": 15,
-		"30": 25,
-		"31": 15,
-		"32": 28,
-		"33": 14,
-		"34": 22,
-		"35": 35,
-		"36": 40,
-		"37": 30,
-		"38": 24,
-		"39": 24,
-		"40": 20,
-		"41": 24,
-		"42": 24,
-		"43": 27,
-		"44": 21,
-		"45": 28,
-		"46": 43,
+		"0": "26",
+		"1": "23",
+		"2": "28",
+		"3": "28",
+		"4": "21",
+		"5": "13",
+		"6": "46",
+		"7": "24",
+		"8": "33",
+		"9": "30",
+		"10": "35",
+		"11": "16",
+		"12": "20",
+		"13": "22",
+		"14": "31",
+		"15": "24",
+		"16": "34",
+		"17": "25",
+		"18": "28",
+		"19": "31",
+		"20": "13",
+		"21": "19",
+		"22": "26",
+		"23": "17",
+		"24": "22",
+		"25": "30",
+		"26": "8",
+		"27": "19",
+		"28": "25",
+		"29": "15",
+		"30": "25",
+		"31": "15",
+		"32": "28",
+		"33": "14",
+		"34": "22",
+		"35": "35",
+		"36": "40",
+		"37": "30",
+		"38": "24",
+		"39": "24",
+		"40": "20",
+		"41": "24",
+		"42": "24",
+		"43": "27",
+		"44": "21",
+		"45": "28",
+		"46": "43",
 		"47": 0,
-		"48": 39
+		"48": "39"
+	},
+	"Win": {
+		"0": 0,
+		"1": 1,
+		"2": 1,
+		"3": 1,
+		"4": 1,
+		"5": 0,
+		"6": 1,
+		"7": 1,
+		"8": 1,
+		"9": 1,
+		"10": 1,
+		"11": 1,
+		"12": 1,
+		"13": 1,
+		"14": 1,
+		"15": 1,
+		"16": 1,
+		"17": 1,
+		"18": 0,
+		"19": 1,
+		"20": 1,
+		"21": 1,
+		"22": 1,
+		"23": 0,
+		"24": 1,
+		"25": 1,
+		"26": 1,
+		"27": 1,
+		"28": 1,
+		"29": 1,
+		"30": 1,
+		"31": 0,
+		"32": 1,
+		"33": 1,
+		"34": 1,
+		"35": 1,
+		"36": 0,
+		"37": 1,
+		"38": 1,
+		"39": 1,
+		"40": 1,
+		"41": 1,
+		"42": 1,
+		"43": 1,
+		"44": 0,
+		"45": 1,
+		"46": 1,
+		"47": 1,
+		"48": 1
 	}
 };
 
@@ -24430,14 +24481,17 @@ exports.default = function (dataController) {
             fill: false,
             borderColor: "transparent",
             label: "Points Scored: " + dataController.currentDate,
-            data: dataController.currentData
+
+            data: dataController.headsData
 
         }, {
             type: 'bar',
             // fill: false,
             // borderColor: "transparent",
             // label: `Points Scored: ${dataController.currentDate}`,
-            backgroundColor: [_colors2.default.warrior_blue, _colors2.default.warrior_gold, _colors2.default.warrior_blue, _colors2.default.warrior_gold],
+
+            label: dataController.Win == 1 ? 'WIN' : 'LOSS',
+            backgroundColor: dataController.Win == 1 ? _colors2.default.warrior_gold : _colors2.default.warrior_blue,
             data: dataController.currentData
 
         }]
@@ -24662,6 +24716,14 @@ var _floatingHead = __webpack_require__(196);
 
 var _floatingHead2 = _interopRequireDefault(_floatingHead);
 
+var _colors = __webpack_require__(195);
+
+var _colors2 = _interopRequireDefault(_colors);
+
+var _moveBall = __webpack_require__(355);
+
+var _moveBall2 = _interopRequireDefault(_moveBall);
+
 function _interopRequireDefault(obj) {
     return obj && obj.__esModule ? obj : { default: obj };
 }
@@ -24713,43 +24775,7 @@ Chart.pluginService.register({
         chart.config.data.datasets[0]._meta[0].data[2]._model.pointStyle = thompson;
         chart.config.data.datasets[0]._meta[0].data[3]._model.pointStyle = green;
     }
-    /*onAnimationComplete: function (chart, easing) {
-        // Plugin code.
-        // console.log(chart.controllers);
-        var heights = chart.data.datasets[0].data;
-        var ctx = chart.chart.canvas.getContext("2d");
-        var width = ctx.canvas.clientWidth-55;
-        var len = chart.boxes.length;
-           for ( var i = 1; i <= len; i++) {
-            // console.log(chart.boxes[el].bottom);
-            
-             // var width = chart.boxes[i];
-            // var height = chart.boxes[el].maxHeight;
-            // console.log(width);
-            // var y = chart.boxes[el].top;
-            ctx.fillStyle = "#FF0000";
-            // ctx.fillRect(width/4*i-25,400-heights[i-1]/40*400,10,100);
-            ctx.drawImage(sun, width/4*i-35, 338-(heights[i-1]) - (heights[i-1]-5)/45*338 );
-            // console.log(i-1);
-            // console.log(width/4*i-25)
-            // console.log(heights[i-1]/40*400);
-            // console.log(width/4*i);
-            // console.log(width);
-            // ctx.fillRect(200,y+100,75,75);
-             // console.log(chart.boxes.ChartElement);
-        }
-         // console.log(ctx);
-        // ctx.fillStyle = "#FF0000";
-        // ctx.fillRect(0,0,150,75);
-    } */
 });
-
-// var originalDraw = Chart.controllers.bar.prototype.draw;
-
-// Chart.controllers.bar.prototype.draw = function(ease) {
-//   originalDraw.call(this, ease);
-//   console.log(this);
-// };
 
 var MainApp = function (_React$Component) {
     _inherits(MainApp, _React$Component);
@@ -24766,14 +24792,19 @@ var MainApp = function (_React$Component) {
     _createClass(MainApp, [{
         key: 'render',
         value: function render() {
-            return _react2.default.createElement('div', null, _react2.default.createElement('div', { id: 'chart-container' }, _react2.default.createElement(_reactChartjs.Bar, { ref: 'chart', width: 400, height: 450, options: _chartOptions2.default, data: chartInputs })), _react2.default.createElement(_nbaSlider2.default, { dataChangedCallback: this.updateGraph }));
+            return _react2.default.createElement('div', null, _react2.default.createElement('div', { id: 'chart-container' }, _react2.default.createElement(_reactChartjs.Bar, { ref: 'chart', width: 400, height: 450, options: _chartOptions2.default, data: chartInputs })), _react2.default.createElement(_nbaSlider2.default, { id: 'ball', dataChangedCallback: this.updateGraph }));
         }
     }, {
         key: 'updateGraph',
         value: function updateGraph(xPos) {
             dataController.updateCurrentData(xPos);
-            chartInputs.datasets[0].data = dataController.currentData;
+
+            chartInputs.datasets[0].data = dataController.headsData;
             chartInputs.datasets[1].data = dataController.currentData;
+
+            chartInputs.datasets[1].label = dataController.Win == 1 ? 'WIN' : 'LOSS';
+            chartInputs.datasets[1].backgroundColor = dataController.Win == 1 ? _colors2.default.warrior_gold : _colors2.default.warrior_blue;
+
             chartInputs.datasets[0].label = 'Points Scored: ' + dataController.currentDate;
             this.refs.chart.chart_instance.update();
 
@@ -24942,6 +24973,11 @@ var DataController = function () {
             var index = Math.round(position / 365 * 49);
             index = index >= 49 ? 48 : index;
             this.currentData = [this.data["Stephen Curry"][index], this.data["Kevin Durant"][index], this.data["Klay Thompson"][index], this.data["Draymond Green"][index]];
+            this.headsData = this.currentData.map(function (x) {
+
+                return Number(x) + 4.5;
+            });
+            this.Win = this.data["Win"][index];
             this.currentDate = this.data["Date"][index];
         }
     }]);
@@ -37445,7 +37481,7 @@ exports = module.exports = __webpack_require__(248)();
 
 
 // module
-exports.push([module.i, "#main-container {\n    width: 500px;\n    height: 500px;\n    padding: 30px;\n    background-image: url(" + __webpack_require__(352) + ");\n    background-position: center;\n    background-size: cover;\n}\n\n#chart-container {\n    width: 400px;\n    height: 450px;\n    margin: 0 auto;\n}\n\n/* Slider component */\n#slider-container {\n    text-align: center;\n    margin: 20px auto;\n}\n\n#slider-bar {\n    width: 80%;\n    height: 15px;\n    background-color: #272324;\n    border-radius: 10px;\n    position: relative;\n    margin: 0 auto;\n    box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.7);\n}\n\n\n#slider-button {\n    height: 35px;\n    width: 35px;\n    border-radius: 100%;\n    position: absolute;\n    background-image: url(" + __webpack_require__(351) + ");\n    background-position: center;\n    background-size: cover;\n    margin-top: -7px;\n    margin-left: -7.5px;\n}\n\n#1 {\n    offset-right: -600px;\n}\n", ""]);
+exports.push([module.i, "#main-container {\n    width: 500px;\n    height: 500px;\n    padding: 30px;\n    background-image: url(" + __webpack_require__(352) + ");\n    background-position: center;\n    background-size: cover;\n}\n\n#chart-container {\n    width: 400px;\n    height: 450px;\n    margin: 0 auto;\n}\n\n/* Slider component */\n#slider-container {\n    text-align: center;\n    margin: 20px auto;\n}\n\n#slider-bar {\n    width: 80%;\n    height: 15px;\n    background-color: #272324;\n    border-radius: 10px;\n    position: relative;\n    margin: 0 auto;\n    box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.7);\n}\n\n#button-container {\n    width: 400px;\n    margin: 0 auto;\n}\n\n#run-button {\n    display:block; /* change this from inline-block */\n    width:30%; /* setting the width */\n    margin:0 auto; /* this will center  it */\n    position:relative;\n    border: none;\n    cursor: pointer;\n    background-color: #fbbf16;\n    color: black;\n    outline: 0 !important;\n    border:0 none !important;\n    // box-shadow: 0 9px #999;\n    border: none;\n    border-radius: 15px;\n}\n#run-button:hover {background-color: #b08203}\nbutton:active {\n  background-color: #3e8e41;\n  // box-shadow: 0 5px #666;\n  transform: translateY(4px);\n}\n\n\n#slider-button {\n    height: 35px;\n    width: 35px;\n    border-radius: 100%;\n    position: absolute;\n    background-image: url(" + __webpack_require__(351) + ");\n    background-position: center;\n    background-size: cover;\n    margin-top: -7px;\n    margin-left: -7.5px;\n}\n\n", ""]);
 
 // exports
 
@@ -54244,6 +54280,25 @@ module.exports = g;
 
 module.exports = __webpack_require__(191);
 
+
+/***/ }),
+/* 355 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+		value: true
+});
+exports.default = MoveBall;
+function MoveBall() {
+		console.log("test");
+
+		var d = document.getElementById("slider-button");
+		console.log(d);
+		d.style.left = "100px";
+}
 
 /***/ })
 /******/ ]);
