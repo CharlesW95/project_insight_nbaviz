@@ -18,9 +18,9 @@ export default class DataController {
         index = index >= 49 ? 48 : index;
         this.currentData = [
             this.data["Stephen Curry"][index],
-            this.data["Draymond Green"][index],
             this.data["Kevin Durant"][index],
-            this.data["Klay Thompson"][index]
+            this.data["Klay Thompson"][index],
+            this.data["Draymond Green"][index]
         ];
         this.currentDate = this.data["Date"][index];
     }

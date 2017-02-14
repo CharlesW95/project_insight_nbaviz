@@ -1,15 +1,17 @@
-import NBASlider from './nba-slider';
+// import NBASlider from '../components/nba-slider';
 
 
 export default {
-    plugin: // The plugin
+    plugin: {},//plugin
+    // animationDuration: 100000,
+    animationEnabled: false,
     scales: {
         yAxes: [{
             ticks: {
                 beginAtZero: true,
                 steps: 10,
                 stepValue: 5,
-                max: 40
+                max: 60
             },
             gridLines: {
                 display: false
@@ -24,9 +26,10 @@ export default {
     },
     title: {
         display: true,
-        text: 'NBA 2016-2017',
+        text: 'Team Dynamics',
         fontSize: 32
     }
+    
 
 };
-
+ 
