@@ -24774,7 +24774,7 @@ _reactChartjs.defaults.global.defaultFontFamily = 'Arial';
 // defaults.global.animationSteps = 10000000;
 Chart.defaults.global.animation.duration = 250;
 
-var curry1 = new Image();
+var curry_img = new Image();
 curry_img.src = _curry2.default;
 var green_img = new Image();
 green_img.src = _green2.default;
@@ -38319,37 +38319,37 @@ module.exports = performanceNow;
 /* 264 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/Basketball.png";
+module.exports = __webpack_require__.p + "/Basketball.png";
 
 /***/ }),
 /* 265 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/curry.png";
+module.exports = __webpack_require__.p + "/curry.png";
 
 /***/ }),
 /* 266 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/durant.png";
+module.exports = __webpack_require__.p + "/durant.png";
 
 /***/ }),
 /* 267 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/green.png";
+module.exports = __webpack_require__.p + "/green.png";
 
 /***/ }),
 /* 268 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/nbaBackground.png";
+module.exports = __webpack_require__.p + "/nbaBackground.png";
 
 /***/ }),
 /* 269 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/thompson.png";
+module.exports = __webpack_require__.p + "/thompson.png";
 
 /***/ }),
 /* 270 */
