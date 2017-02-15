@@ -9,6 +9,9 @@ import FloatingHead from './floating-head';
 import Colors from '../colors/colors';
 import MoveBall from './move-ball';
 import curry from '../static/images/curry.png';
+import green from '../app/static/images/green.png';
+import durant from '../static/images/durant.png';
+import thompson from '../app/static/images/thompson.png';
 
 console.log(curry);
 // import componentWillMount from 'head-extension.js'
@@ -23,22 +26,22 @@ defaults.global.defaultFontFamily = 'Arial';
 Chart.defaults.global.animation.duration = 250;
 
 var curry1 = new Image();
-curry1.src = curry;
-var green = new Image();
-green.src = '../app/static/images/green.png';
-var durant = new Image();
-durant.src = '../app/static/images/durant.png';
-var thompson = new Image();
-thompson.src = '../app/static/images/thompson.png';
+curry_img.src = curry;
+var green_img = new Image();
+green_img.src = green;
+var durant_img = new Image();
+durant_img.src = durant;
+var thompson_img = new Image();
+thompson_img.src = thompson;
 // cloud.src = 'https://i.imgur.com/DIbr9q1.png';
 
 Chart.pluginService.register({
     afterUpdate: function(chart) {
-        chart.config.data.datasets[0]._meta[0].data[0]._model.pointStyle = curry1;
+        chart.config.data.datasets[0]._meta[0].data[0]._model.pointStyle = curry_img;
         // chart.config.data.datasets[0]._meta[].data[0]._model.pointStyle = durant;
-        chart.config.data.datasets[0]._meta[0].data[1]._model.pointStyle = durant;
-        chart.config.data.datasets[0]._meta[0].data[2]._model.pointStyle = thompson;
-        chart.config.data.datasets[0]._meta[0].data[3]._model.pointStyle = green;
+        chart.config.data.datasets[0]._meta[0].data[1]._model.pointStyle = durant_img;
+        chart.config.data.datasets[0]._meta[0].data[2]._model.pointStyle = thompson_img;
+        chart.config.data.datasets[0]._meta[0].data[3]._model.pointStyle = green_img;
     }
 });
 
