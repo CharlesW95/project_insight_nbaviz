@@ -25,7 +25,7 @@ defaults.global.defaultFontFamily = 'Arial';
 // defaults.global.animationSteps = 10000000;
 Chart.defaults.global.animation.duration = 250;
 
-var curry1 = new Image();
+var curry_img = new Image();
 curry_img.src = curry;
 var green_img = new Image();
 green_img.src = green;
