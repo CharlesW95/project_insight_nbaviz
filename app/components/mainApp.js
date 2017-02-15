@@ -9,9 +9,9 @@ import FloatingHead from './floating-head';
 import Colors from '../colors/colors';
 import MoveBall from './move-ball';
 import curry from '../static/images/curry.png';
-import green from '../app/static/images/green.png';
+import green from '../static/images/green.png';
 import durant from '../static/images/durant.png';
-import thompson from '../app/static/images/thompson.png';
+import thompson from '../static/images/thompson.png';
 
 console.log(curry);
 // import componentWillMount from 'head-extension.js'
