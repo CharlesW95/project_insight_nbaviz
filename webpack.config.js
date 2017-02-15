@@ -24,10 +24,8 @@ module.exports = {
                 test: /\.css$/,
                 loader: 'style-loader!css-loader'
             },
-            {
-                test: /\.(png|jpg)$/,
-                loader: 'url-loader?limit=8192'
-            },
+            { test: /\.(png|jpg)$/, loader: 'file-loader?name=images/[name].[ext]' },
+
             {
                 test: /\.jsx?$/,
                 exclude: /(node_modules)/,
@@ -40,7 +38,8 @@ module.exports = {
     },
     output: {
         filename: 'bundle.js',
-        path: __dirname + '/dist'
+        path: __dirname + '/dist',
+        publicPath: __dirname + '/dist'
     },
     plugins: [HTMLWebpackPluginConfig]
 };

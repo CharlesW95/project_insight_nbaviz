@@ -8,7 +8,9 @@ import NBASlider from './nba-slider';
 import FloatingHead from './floating-head';
 import Colors from '../colors/colors';
 import MoveBall from './move-ball';
+import curry from '../static/images/curry.png';
 
+console.log(curry);
 // import componentWillMount from 'head-extension.js'
 
 let dataController = new DataController();
@@ -20,8 +22,8 @@ defaults.global.defaultFontFamily = 'Arial';
 // defaults.global.animationSteps = 10000000;
 Chart.defaults.global.animation.duration = 250;
 
-var curry = new Image();
-curry.src = '../app/static/images/curry.png';
+var curry1 = new Image();
+curry1.src = curry;
 var green = new Image();
 green.src = '../app/static/images/green.png';
 var durant = new Image();
@@ -32,7 +34,7 @@ thompson.src = '../app/static/images/thompson.png';
 
 Chart.pluginService.register({
     afterUpdate: function(chart) {
-        chart.config.data.datasets[0]._meta[0].data[0]._model.pointStyle = curry;
+        chart.config.data.datasets[0]._meta[0].data[0]._model.pointStyle = curry1;
         // chart.config.data.datasets[0]._meta[].data[0]._model.pointStyle = durant;
         chart.config.data.datasets[0]._meta[0].data[1]._model.pointStyle = durant;
         chart.config.data.datasets[0]._meta[0].data[2]._model.pointStyle = thompson;
