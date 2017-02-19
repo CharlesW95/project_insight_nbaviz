@@ -6,6 +6,7 @@ export default function(dataController) {
         datasets: [ {
             type: 'line',
             fill: false,
+        
             borderColor: "transparent",
             label: `Points Scored: ${dataController.currentDate}`,
             

@@ -24503,6 +24503,9 @@ exports.default = function (dataController) {
         datasets: [{
             type: 'line',
             fill: false,
+            legend: {
+                display: false
+            },
             borderColor: "transparent",
             label: "Points Scored: " + dataController.currentDate,
 
@@ -24565,6 +24568,9 @@ exports.default = {
             },
             barPercentage: 0.5
         }]
+    },
+    legend: {
+        onClick: null
     },
     title: {
         display: true,

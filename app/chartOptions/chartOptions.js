@@ -24,6 +24,9 @@ export default {
             barPercentage: 0.5
         }]
     },
+    legend: {
+      onClick: null
+    },
     title: {
         display: true,
         text: 'Team Dynamics',
