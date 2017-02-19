@@ -24503,6 +24503,7 @@ exports.default = function (dataController) {
         datasets: [{
             type: 'line',
             fill: false,
+            backgroundColor: "#00FFFFFF",
             borderColor: "transparent",
             label: "Points Scored: " + dataController.currentDate,
 
@@ -24510,10 +24511,6 @@ exports.default = function (dataController) {
 
         }, {
             type: 'bar',
-            // fill: false,
-            // borderColor: "transparent",
-            // label: `Points Scored: ${dataController.currentDate}`,
-
             label: dataController.Win == 1 ? 'WIN' : 'LOSS',
             backgroundColor: dataController.Win == 1 ? _colors2.default.warrior_gold : _colors2.default.warrior_blue,
             data: dataController.currentData
@@ -24565,6 +24562,9 @@ exports.default = {
             },
             barPercentage: 0.5
         }]
+    },
+    legend: {
+        onClick: null
     },
     title: {
         display: true,

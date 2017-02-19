@@ -9,15 +9,10 @@ export default function(dataController) {
             borderColor: "transparent",
             label: `Points Scored: ${dataController.currentDate}`,
             
-
             data: dataController.headsData,
             
         }, {
             type: 'bar',
-            // fill: false,
-            // borderColor: "transparent",
-            // label: `Points Scored: ${dataController.currentDate}`,
-            
             label: (dataController.Win == 1 ? 'WIN' : 'LOSS'),
             backgroundColor: (dataController.Win == 1 ? Colors.warrior_gold : Colors.warrior_blue),
             data: dataController.currentData,
