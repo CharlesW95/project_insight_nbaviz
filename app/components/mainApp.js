@@ -13,7 +13,7 @@ import green from '../static/images/green.png';
 import durant from '../static/images/durant.png';
 import thompson from '../static/images/thompson.png';
 
-console.log(curry);
+console.log(__dirname);
 // import componentWillMount from 'head-extension.js'
 
 let dataController = new DataController();

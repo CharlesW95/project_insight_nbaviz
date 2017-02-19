@@ -60,7 +60,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/Users/Sam/Documents/clubs/ProjectInsight/basketball/dist";
+/******/ 	__webpack_require__.p = "/Users/Sam/Documents/projects/NBAViz/dist";
 
 /******/ 	// Load entry module and return exports
 /******/ 	return __webpack_require__(__webpack_require__.s = 359);
@@ -24668,7 +24668,7 @@ exports.default = FloatingHead;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
+/* WEBPACK VAR INJECTION */(function(__dirname) {
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
@@ -24762,7 +24762,7 @@ function _inherits(subClass, superClass) {
     }subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } });if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass;
 }
 
-console.log(_curry2.default);
+console.log(__dirname);
 // import componentWillMount from 'head-extension.js'
 
 var dataController = new _dataController2.default();
@@ -24833,6 +24833,7 @@ var MainApp = function (_React$Component) {
 }(_react2.default.Component);
 
 exports.default = MainApp;
+/* WEBPACK VAR INJECTION */}.call(exports, "/"))
 
 /***/ }),
 /* 198 */
