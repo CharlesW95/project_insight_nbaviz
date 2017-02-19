@@ -56,7 +56,6 @@ export default class MainApp extends React.Component {
         return (
             <div>
                 <div id="chart-container">
-                    
                     <Bar ref='chart' width={400} height={450} options={ChartOptions} data={chartInputs} />
                 </div>
                 <NBASlider id= "ball" dataChangedCallback={this.updateGraph} />
@@ -66,13 +65,13 @@ export default class MainApp extends React.Component {
 
     updateGraph(xPos) {
         dataController.updateCurrentData(xPos);
-        
+
         chartInputs.datasets[0].data = dataController.headsData;
         chartInputs.datasets[1].data = dataController.currentData;
 
         chartInputs.datasets[1].label = (dataController.Win == 1 ? 'WIN' : 'LOSS');
         chartInputs.datasets[1].backgroundColor = (dataController.Win == 1 ? Colors.warrior_gold : Colors.warrior_blue);
-      
+
         chartInputs.datasets[0].label = `Points Scored: ${dataController.currentDate}`;
         this.refs.chart.chart_instance.update();
 
