@@ -24503,7 +24503,6 @@ exports.default = function (dataController) {
         datasets: [{
             type: 'line',
             fill: false,
-            backgroundColor: "#00FFFFFF",
             borderColor: "transparent",
             label: "Points Scored: " + dataController.currentDate,
 
