@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
 
 #main-container {
+    margin: 75px auto;
     width: 500px;
     height: 500px;
     padding: 30px;
@@ -70,4 +72,3 @@ button:active {
     margin-top: -7px;
     margin-left: -7.5px;
 }
-
