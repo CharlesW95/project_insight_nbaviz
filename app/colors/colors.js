@@ -5,7 +5,8 @@ export default {
     green: 'rgba(117, 255, 148, 100)',
     white: 'rgba(255, 255, 255, 100)',
     warrior_gold: '#fbbf16',
-    warrior_blue: '#1a64b7'
+    warrior_blue: '#1a64b7',
+    transparent: 'rgba(0, 0, 0, 0)'
 }
 
 // #fbbf16 yellow

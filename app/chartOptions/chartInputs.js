@@ -7,6 +7,7 @@ export default function(dataController) {
             type: 'line',
             fill: false,
             borderColor: "transparent",
+            backgroundColor: Colors.transparent,
             label: `Points Scored: ${dataController.currentDate}`,
             
             data: dataController.headsData,
