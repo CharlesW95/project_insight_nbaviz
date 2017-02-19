@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
+body {
+    background-color: #F5F5F5;
+}
+
 #main-container {
     margin: 75px auto;
     width: 500px;
@@ -8,6 +12,7 @@
     background-image: url('../images/nbaBackground.png');
     background-position: center;
     background-size: cover;
+    border-radius: 20px;
 }
 
 #chart-container {
@@ -59,7 +64,6 @@ button:active {
   // box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-
 
 #slider-button {
     height: 35px;
