@@ -21,7 +21,7 @@ let chartInputs = ChartInputs(dataController);
 
 // Change globals
 defaults.global.defaultFontColor = '#FFF';
-defaults.global.defaultFontFamily = 'Arial';
+defaults.global.defaultFontFamily = 'Lato';
 // defaults.global.animationSteps = 10000000;
 Chart.defaults.global.animation.duration = 250;
 
@@ -60,7 +60,6 @@ export default class MainApp extends React.Component {
                     <Bar ref='chart' width={400} height={450} options={ChartOptions} data={chartInputs} />
                 </div>
                 <NBASlider id= "ball" dataChangedCallback={this.updateGraph} />
-                
             </div>
         );
     };

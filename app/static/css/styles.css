@@ -1,3 +1,4 @@
+
 #main-container {
     width: 500px;
     height: 500px;
@@ -8,6 +9,7 @@
 }
 
 #chart-container {
+    font-family: 'Lato', sans-serif;
     width: 400px;
     height: 450px;
     margin: 0 auto;

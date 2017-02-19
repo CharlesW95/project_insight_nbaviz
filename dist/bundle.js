@@ -24770,7 +24770,7 @@ var chartInputs = (0, _chartInputs2.default)(dataController);
 
 // Change globals
 _reactChartjs.defaults.global.defaultFontColor = '#FFF';
-_reactChartjs.defaults.global.defaultFontFamily = 'Arial';
+_reactChartjs.defaults.global.defaultFontFamily = 'Lato', "sans-serif";
 // defaults.global.animationSteps = 10000000;
 Chart.defaults.global.animation.duration = 250;
 
@@ -24809,7 +24809,7 @@ var MainApp = function (_React$Component) {
     _createClass(MainApp, [{
         key: 'render',
         value: function render() {
-            return _react2.default.createElement('div', null, _react2.default.createElement('div', { id: 'chart-container' }, _react2.default.createElement(_reactChartjs.Bar, { ref: 'chart', width: 400, height: 450, options: _chartOptions2.default, data: chartInputs })), _react2.default.createElement(_nbaSlider2.default, { id: 'ball', dataChangedCallback: this.updateGraph }));
+            return _react2.default.createElement('div', null, _react2.default.createElement('div', { id: 'chart-container' }, _react2.default.createElement(_reactChartjs.Bar, { ref: 'chart', width: 400, height: 450, options: _chartOptions2.default, data: chartInputs })), _react2.default.createElement(_nbaSlider2.default, { id: 'ball', dataChangedCallback: this.updateGraph }), _react2.default.createElement('div', { style: 'font-family: Lato' }, ' test '));
         }
     }, {
         key: 'updateGraph',
@@ -37518,7 +37518,7 @@ exports = module.exports = __webpack_require__(249)();
 
 
 // module
-exports.push([module.i, "#main-container {\n    width: 500px;\n    height: 500px;\n    padding: 30px;\n    background-image: url(" + __webpack_require__(268) + ");\n    background-position: center;\n    background-size: cover;\n}\n\n#chart-container {\n    width: 400px;\n    height: 450px;\n    margin: 0 auto;\n}\n\n/* Slider component */\n#slider-container {\n    text-align: center;\n    margin: 20px auto;\n}\n\n#slider-bar {\n    width: 80%;\n    height: 15px;\n    background-color: #272324;\n    border-radius: 10px;\n    position: relative;\n    margin: 0 auto;\n    box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.7);\n}\n\n#button-container {\n    width: 400px;\n    margin: 0 auto;\n}\n\n#run-button {\n    display:block; /* change this from inline-block */\n    width:30%; /* setting the width */\n    margin:0 auto; /* this will center  it */\n    position:relative;\n    border: none;\n    cursor: pointer;\n    background-color: #fbbf16;\n    color: black;\n    outline: 0 !important;\n    border:0 none !important;\n    // box-shadow: 0 9px #999;\n    border: none;\n    border-radius: 15px;\n}\n#run-button:hover {background-color: #b08203}\nbutton:active {\n  background-color: #3e8e41;\n  // box-shadow: 0 5px #666;\n  transform: translateY(4px);\n}\n\n\n#slider-button {\n    height: 35px;\n    width: 35px;\n    border-radius: 100%;\n    position: absolute;\n    background-image: url(" + __webpack_require__(264) + ");\n    background-position: center;\n    background-size: cover;\n    margin-top: -7px;\n    margin-left: -7.5px;\n}\n\n", ""]);
+exports.push([module.i, "\n#main-container {\n    width: 500px;\n    height: 500px;\n    padding: 30px;\n    background-image: url(" + __webpack_require__(268) + ");\n    background-position: center;\n    background-size: cover;\n}\n\n#chart-container {\n    font-family: 'Lato', sans-serif;\n    width: 400px;\n    height: 450px;\n    margin: 0 auto;\n}\n\n/* Slider component */\n#slider-container {\n    text-align: center;\n    margin: 20px auto;\n}\n\n#slider-bar {\n    width: 80%;\n    height: 15px;\n    background-color: #272324;\n    border-radius: 10px;\n    position: relative;\n    margin: 0 auto;\n    box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.7);\n}\n\n#button-container {\n    width: 400px;\n    margin: 0 auto;\n}\n\n#run-button {\n    display:block; /* change this from inline-block */\n    width:30%; /* setting the width */\n    margin:0 auto; /* this will center  it */\n    position:relative;\n    border: none;\n    cursor: pointer;\n    background-color: #fbbf16;\n    color: black;\n    outline: 0 !important;\n    border:0 none !important;\n    // box-shadow: 0 9px #999;\n    border: none;\n    border-radius: 15px;\n}\n#run-button:hover {background-color: #b08203}\nbutton:active {\n  background-color: #3e8e41;\n  // box-shadow: 0 5px #666;\n  transform: translateY(4px);\n}\n\n\n#slider-button {\n    height: 35px;\n    width: 35px;\n    border-radius: 100%;\n    position: absolute;\n    background-image: url(" + __webpack_require__(264) + ");\n    background-position: center;\n    background-size: cover;\n    margin-top: -7px;\n    margin-left: -7.5px;\n}\n\n", ""]);
 
 // exports
 
