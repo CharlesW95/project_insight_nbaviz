@@ -39,7 +39,7 @@ module.exports = {
     output: {
         filename: 'bundle.js',
         path: __dirname + '/dist',
-        publicPath: __dirname + '/dist',
+        publicPath: './'
     },
     plugins: [HTMLWebpackPluginConfig]
 };
